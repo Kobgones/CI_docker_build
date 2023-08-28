@@ -28,5 +28,5 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          context: "{{defaultContext}}:client"
+          context: ../hello-app
           tags: kobgones/CI_docker:latest
